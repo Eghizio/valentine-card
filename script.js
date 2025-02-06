@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  console.log("jQuery działa!");
   $(".container")
     .mouseenter(function () {
       $(".card").stop().animate(
