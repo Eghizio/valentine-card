@@ -246,3 +246,11 @@ body {
     transform: scaleX(0.85);
   }
 }
+
+.card {
+  transition: top 600ms ease-in-out;
+}
+
+.container:hover .card {
+  top: -90px;
+}
